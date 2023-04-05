@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+</head>
+<body>
+    <header> 
+        <video>
+            <source />
+        </video>
+        <nav>
+            <ul>
+                <li>PRODUCTOS</li>
+                <li>SUBPROCUTOS</li>
+                <li>CONTACTO</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>FORMULARIO</h1>
+        <fieldset>
+            <legend>FORMULARIO DE CONTACO</legend>
+            <form action="" method="post">
+
+                <div>
+                    <label for="">NOMBRE:</label>
+                    <input type="text">
+                </div>
+            
+                <div>
+                    <label for="">EMAIL:</label>
+                    <input 
+                        type="email" 
+                        name="" 
+                        id="" 
+                        placeholder="INGRESE SU EMAIL✔"
+                        required
+                    >
+                     <!-- se usa hidden para ocultar cosas que no querremos que se vean -->
+                </div>
+
+                <div>
+                    <span>PASSWORD</span>
+                    <input type="password">
+                </div>
+
+                <hr>
+
+                <span>FECHA DE NACIMIENTO</span>
+                <input type="date">
+
+                <hr>
+
+                <input type="range" name="" id="" min="1" max="100">
+
+                <hr>
+
+                <div>
+                    <label>ELEGI TU SISTEMA OPERATIVO</label>
+                    <input 
+                    type="text"
+                    name=""
+                    id=""
+                    list="os"
+                    >
+                    
+                    <datalist id="os">
+                        <option value="MacOd"></option>
+                        <option value="Windows"></option>
+                    </datalist>
+                </div>
+
+                <div>
+                    <label for="lang">LENGUAJES</label>
+                    <select name="LENGUAJES" id="lang">
+
+                        <option value="javascript">javascript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="JAVA">JAVA</option>
+                        <option value="PYTHON">PYTHON</option>
+                    </select>
+                </div>
+
+                <hr>
+                 
+                </div>
+
+                <input type="submit" value="SEND">
+                <button type="reset">RESETEAR</button>
+
+            </form>
+
+        </fieldset>
+
+    </main>
+    <footer>
+        <h3>&copy Abigail</h3>
+    </footer>
+
+</body>
+</html>
